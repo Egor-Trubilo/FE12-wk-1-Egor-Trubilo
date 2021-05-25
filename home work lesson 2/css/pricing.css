@@ -2,6 +2,8 @@
   margin: auto;
   padding: 169px 0 0 0;
   text-align: center;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 .title_pricing {
   margin-bottom: 34px;

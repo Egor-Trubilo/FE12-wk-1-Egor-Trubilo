@@ -1,0 +1,28 @@
+.footer {
+  background-color: black;
+  max-width: 1140px;
+  margin: 0 15px;
+}
+.container_themes {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  margin: auto;
+  margin-left: -15px;
+  margin-right: -15px;
+  text-align: center;
+}
+.icons_themes {
+  display: flex;
+  width: 317px;
+  font-size: 23px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  color: rgba(134, 135, 139, 1);
+  align-self: center;
+  padding-bottom: 18px;
+}
+.sub_themes {
+  color: white;
+}

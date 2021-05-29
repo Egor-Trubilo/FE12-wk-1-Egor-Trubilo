@@ -1,7 +1,6 @@
 .footer {
   background-color: black;
   max-width: 1140px;
-  margin: 0 15px;
 }
 .container_themes {
   padding-top: 30px;
@@ -9,9 +8,6 @@
   display: flex;
   flex-flow: column wrap;
   margin: auto;
-  margin-left: -15px;
-  margin-right: -15px;
-  text-align: center;
 }
 .icons_themes {
   display: flex;

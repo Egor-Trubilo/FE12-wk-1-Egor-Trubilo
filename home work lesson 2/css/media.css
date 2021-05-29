@@ -8,12 +8,12 @@
   justify-content: space-between;
   padding-top: 14px;
   background-color: #f8efef;
+  padding: 0px 15px;
   margin-left: -15px;
   margin-right: -15px;
 }
 .social_media {
   max-width: 365px;
-  padding-left: 15px;
 }
 #item_social_media {
   color: black;

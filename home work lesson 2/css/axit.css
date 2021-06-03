@@ -19,7 +19,7 @@
 }
 .container_axit {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
   padding: 108px 15px 101px 15px;
   align-items: center;
@@ -27,22 +27,23 @@
   position: relative;
 }
 .item_axit {
-  max-width: 544px;
+  max-width: 48%;
 }
 .axit_logo {
   font-family: 'Raleway', 'sans-serif';
-  font-size: 60px;
-  line-height: 70px;
+  font-size: 2.57rem;
+  line-height: 5rem;
   color: white;
   text-transform: uppercase;
   display: flex;
 }
 .title_axit {
   color: white;
-  font-size: 36px;
+  font-size: 2.57rem;
   font-family: 'Raleway', 'sans-serif';
   font-weight: 400px;
   text-transform: uppercase;
+  line-height: 3rem;
 }
 .title_axit::after {
   content: '';
@@ -53,15 +54,18 @@
   margin-bottom: 34px;
   margin-top: 34px;
 }
+#subtitle_axit {
+  text-align: left;
+}
 .bottom_axit {
   padding-top: 39px;
-  justify-content: center;
+  justify-content: left;
   padding-bottom: 15px;
 }
-.form_contact {
-  max-width: 370px;
+.registr-form {
+  max-width: 32%;
 }
-.form_axit {
+.registr_form_axit {
   background-color: #fff;
   border: 0px solid;
   border-radius: 8px 8px 0px 0px;
@@ -69,10 +73,10 @@
   padding-right: 59px;
   padding-top: 15px;
 }
-.form_title {
+.registr_form_title {
   font-family: 'Raleway', 'sans-serif';
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.43rem;
+  line-height: 1.93rem;
   font-weight: 700px;
 }
 .axit_free {
@@ -84,26 +88,29 @@
   margin-top: 44px;
   margin-bottom: 115px;
 }
+.registr_input {
+  font-size: 19px;
+  width: 100%;
+}
 .form_filing:last-child {
   margin-bottom: 0px;
   padding-bottom: 61px;
 }
-.form_type {
+.registr_form_type {
+  display: flex;
+  flex-flow: column wrap;
   border-bottom: 1px solid #bdbdbd;
-  line-height: 19px;
   color: #bdbdbd;
-  padding-bottom: 16px;
   margin-bottom: 19px;
 }
-
 .item_bottom_start {
   margin: auto;
 }
 .axit_bottom_start {
   font-family: 'Raleway', 'sans-serif';
   font-weight: 600;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1.07rem;
+  line-height: 1.43rem;
   background-color: #ec7979;
   align-items: center;
   width: 100%;

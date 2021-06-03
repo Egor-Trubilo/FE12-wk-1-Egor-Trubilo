@@ -8,8 +8,6 @@
   padding-bottom: 69px;
   padding-top: 80px;
 }
-.contacts_form {
-}
 .contacts_row {
   margin: auto;
   display: flex;
@@ -27,7 +25,6 @@
   display: flex;
   flex-flow: column;
   border-bottom: 1px solid #bdbdbd;
-  line-height: 19px;
   color: #bdbdbd;
   /*padding-bottom: 16px;*/
   margin-bottom: 19px;
@@ -38,14 +35,9 @@
 .contact_form_item_label {
   line-height: 19px;
 }
-.contact_form-item_name_input {
-}
-.contact_form_row_email {
-}
+
 .contact_form_item_input {
   font-size: 32px;
-}
-.contact_form_row_pass {
 }
 .contacts_form_item {
   max-width: 478px;

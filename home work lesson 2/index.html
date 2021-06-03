@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Home work</title>
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -67,30 +67,33 @@
                 <h2 class="title_axit">
                     MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
                 </h2>
-                <h6 class="subtitle">
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum.
+                <h6 class="subtitle" id="subtitle_axit">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum. </h6>
                 <div class="bottom_axit">
                     <button type="button" class="downloadbutton_axure downloadbutton_axit">
                         Download
                     </button>
             </div>
             </div>
-            <div class="form-contact">
-                <div class="form_axit">
-                    <h3 class="form_title">
+
+            <form action="#" class="registr_form">
+                <div class="registr_form_axit">
+                    <h3 class="registr_form_title">
                         Try Your <span class="axit_free">free</span> Trial Today
                     </h3>
                     <ul class="form_filing">
-                        <li class="form_type">
-                                <input type="text" id="name" name="name" placeholder="name">
-                                
-                                
+                        <li class="registr_form_type">
+                            <label for="username_registr" class="registr_form_item_label">Name
+                            </label>
+                                <input type="text" id="username_registr" class="registr_input username_registr_input">     
                         </li>
-                        <li class="form_type">
-                            <input type="email" id="mail" name="email" placeholder="email" >
+                        <li class="registr_form_type">
+                            <label for="email_registr" class="registr_form_item_label">Email
+                            <input type="email" id="email_registr" class="registr_input email_registr_input">
                         </li>
-                        <li class="form_type">
-                            <input type="password" id="password" name="password" placeholder="password"> 
+                        <li class="registr_form_type">
+                            <label for="password_registr" class="registr_form_item_label">Password
+                            <input type="password" id="password_registr" class="registr_input password_registr_input"> 
                         </li>
                     </ul>
                 </div>
@@ -100,7 +103,7 @@
                         </button>
                     </div>
            
-            </div>
+            </form>
            
             
         
@@ -116,29 +119,87 @@
 Aenean euismod bibendum laoreet.
                 </h6>
             </div>
-            <div class="social_media_icons">
-                <a href="#" class="social_media_facebook">  
+            <ul class="social_media_icons">
+                <li class="social_media_icon"> 
+                    <a href="#" class="social_media_facebook">  
                     <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="#" class="social_media_twitter"> 
+            </li>
+                <li class="social_media_icon">  <a href="#" class="social_media_twitter"> 
                     <i class="fab fa-twitter"></i> 
                 </a>
-                <a href="#" class="social_media_google">  
+            </li>
+                <li class="social_media_icon">  <a href="#" class="social_media_google">  
                     <i class="fab fa-google-plus-g"></i>
                 </a>
-                <a href="#" class="social_media_pinterest"> 
+            </li>
+                <li class="social_media_icon"> <a href="#" class="social_media_pinterest"> 
                     <i class="fab fa-pinterest"></i> 
                 </a>
-                <a href="#" class="social_media_instagram">  
-                    <i class="fab fa-instagram"></i>
+            </li>
+                <li class="social_media_icon">
+                    <a href="#" class="social_media_instagram">  
+                    <i class="fab fa-instagram">
+                    </i>
                 </a>
-                <a href="#" class="social_media_telegram">  
-                    <i class="fab fa-telegram"></i>
-                </a>
-                <a href="#" class="social_media_viber">  
-                    <i class="fab fa-viber"></i>
-                </a>
-            </div>   
+            </li>
+                <li class="social_media_icon">
+                    <a href="#" class="social_media_telegram">  
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                </li>
+                <li class="social_media_icon">
+                    <a href="#" class="social_media_viber">  
+                        <i class="fab fa-viber"></i>
+                    </a>
+                </li>  
+            </ul>   
+        </div>
+    </section>
+    <section class="section section_tabs">
+        <div class="container_tabs">
+            <ul class="item_tabs">
+                <li class="item_tab">
+                    <button class="tab_button">
+                        tab 1
+                    </button>
+                </li>
+                <li class="item_tab">
+                    <button class="tab_button">
+                        tab 1
+                    </button>
+                </li>
+                <li class="item_tab">
+                    <button class="tab_button">
+                        tab 1
+                    </button>
+                </li>
+            </ul>
+            <div class="item_tabs_description">
+                <h3 class="item_tabs_description_title">
+                    Tabs with soft transitioning effect.
+                </h3>
+                <div class="item_tabs_description_text">
+                    <p class="item_tabs_description_text_paragraphone">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                        penatibus et magnis dis parturient montes.
+                    </p>
+                    <p class="item_tabs_description_text_paragraphtwo">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                        bibendum laoreet.
+                    </p>
+                </div>
+                <div class="item_tabs_description_button">
+                    <button class="item_tabs_description_button_download">
+                        Download
+                    </button>
+                </div>
+            </div>
+            <div class="item_tabs_description_image">
+                <img src="../lesson 5/img/image_for_soft.png" alt="#" class="item_tabs_description_image_town">
+            </div>
         </div>
     </section>
     <section class="section section_awesome">
@@ -149,7 +210,7 @@ Aenean euismod bibendum laoreet.
                 <h6 class="subtitle">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </h6>
-            <div class="items items_awesome">
+            <div class="items_awesome">
                 <div class="item_awesome">
                     <div class="item_awesome_img">
                     <img src="./img/light.png" alt="#">

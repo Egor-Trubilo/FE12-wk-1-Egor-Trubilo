@@ -14,22 +14,22 @@
   margin-bottom: 30px;
 }
 .items_awesome {
-  margin-top: 67px;
+  padding-top: 67px;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   margin-left: -15px;
   margin-right: -15px;
 }
 .item_awesome {
-  max-width: 350px;
+  max-width: 30.7%;
   margin: 0 15px;
 }
 .item_awesome_img {
   display: block;
   border: 1px solid #d98943;
-  border-radius: 35px;
-  width: 70px;
-  height: 70px;
+  border-radius: 2.5rem;
+  width: 5rem;
+  height: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,8 +39,8 @@
 }
 .item_awesome_title {
   font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
+  font-size: 1.429rem;
+  line-height: 1.9285rem;
   margin-bottom: 16px;
 }
 .item_awesome_text {
